@@ -1,0 +1,38 @@
+body {
+  background: #202252;
+}
+
+.wrapper {
+	width: 180px;
+	text-align: center;
+}
+
+.easyTest-title {
+  color: #ffffff;
+}
+
+.easyTest-subtext {
+	color: #ffffff;
+	margin-right: 5px;
+}
+
+.easyTest-button {
+	padding: 3px;
+	outline: none;
+	border: 1px solid #8CF2A1;
+	border-radius: 3px;
+	background: #8CF2A1;
+	cursor: pointer;
+	color: #202252;
+	text-align: center;
+}
+
+.easyTest-button:hover {
+	background: #202252;
+	color: #8CF2A1;
+}
+
+.easyTest-button:active {
+	background-color: #202252;
+	transform: translateY(1px) translateX(1px);
+}
