@@ -8,7 +8,7 @@ EasyTest Form Filler is a chrome extension that fills form on webpage automatica
 * Go to the webpage you want to fill the form with random data.
 * Click on extension and hit "GO!".
 
-It's that simple, just with one click it will fill all the fields present on webpage.
+It's that simple, with just one click it will fill all the fields present on webpage.
 
 ![Demo](images/demo.gif)
 
@@ -26,4 +26,4 @@ It's that simple, just with one click it will fill all the fields present on web
 4. Click on __Load unpacked__ and navigate to the folder where you have extracted files for this extension.
 5. Then click select folder.
 
-Your Extension will now be installed and is ready to use.
+Your Extension is now installed and is ready to use.
