@@ -48,7 +48,7 @@ function generateRandomData(fType, fLength, fName, fMax, fMin) {
       }
       break;
     case 'email':
-      var randomData = randomString(10, ["A", "Z"], ["a", "z"], ["0", "9"]) + "@eztestff.com";
+      var randomData = randomString(10, ["a", "z"], ["0", "9"]) + "@eztestff.io";
       break;
     case 'password':
       var randomData = randomString(9, ["A", "Z"], ["a", "z"]) + "@" + randomString(5, ["0", "9"]) + "*";
