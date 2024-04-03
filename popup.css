@@ -3,21 +3,35 @@ body {
 }
 
 .wrapper {
-	width: 180px;
+	width: 210px;
+  height: 110px;
 	text-align: center;
 }
 
+.easyTest-heading {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.easyTest-heading img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
 .easyTest-title {
-  color: #ffffff;
+  color: #8CF2A1;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .easyTest-subtext {
 	color: #ffffff;
-	margin-right: 5px;
+  font-size: 0.9rem;
 }
 
 .easyTest-button {
-	padding: 3px;
+	padding: 5px;
 	outline: none;
 	border: 1px solid #8CF2A1;
 	border-radius: 3px;
