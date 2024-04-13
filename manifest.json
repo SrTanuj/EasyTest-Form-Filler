@@ -1,7 +1,7 @@
 {
 	"name": "EasyTest Form Filler",
 	"version": "1.0",
-	"description": "Automatic form filler that fills all fields on webpage with random data.",
+	"description": "Automatic form filler that fills out all form fields with random data in just one click.",
 	"permissions": ["activeTab"],
 	"manifest_version": 3,
 	"background": {
@@ -11,10 +11,13 @@
 		"default_popup": "popup.html"
 	},
 	"content_scripts": [{
-		"matches": ["<all_urls>"],
+		"matches": ["*://*/*"],
 		"js": ["content.js"]
 	}],
 	"icons": {
+		"16": "/images/16.png",
+		"48": "/images/48.png",
+		"96": "/images/96.png",
 		"128": "/images/128.png"
 	}
 }

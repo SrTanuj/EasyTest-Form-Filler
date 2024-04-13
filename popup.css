@@ -3,9 +3,9 @@ body {
 }
 
 .wrapper {
-	width: 210px;
+  width: 210px;
   height: 110px;
-	text-align: center;
+  text-align: center;
 }
 
 .easyTest-heading {
@@ -26,27 +26,27 @@ body {
 }
 
 .easyTest-subtext {
-	color: #ffffff;
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
 .easyTest-button {
-	padding: 5px;
-	outline: none;
-	border: 1px solid #8CF2A1;
-	border-radius: 3px;
-	background: #8CF2A1;
-	cursor: pointer;
-	color: #202252;
-	text-align: center;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #8CF2A1;
+  border-radius: 3px;
+  background: #8CF2A1;
+  cursor: pointer;
+  color: #202252;
+  text-align: center;
 }
 
 .easyTest-button:hover {
-	background: #202252;
-	color: #8CF2A1;
+  background: #202252;
+  color: #8CF2A1;
 }
 
 .easyTest-button:active {
-	background-color: #202252;
-	transform: translateY(1px) translateX(1px);
+  background-color: #202252;
+  transform: translateY(1px) translateX(1px);
 }
